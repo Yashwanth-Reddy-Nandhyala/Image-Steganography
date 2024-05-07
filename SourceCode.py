@@ -18,7 +18,7 @@ def encode():
 	enc.attributes("-fullscreen", True)
 	enc.wm_attributes('-transparentcolor')
 	img=ImageTk.PhotoImage(Image.open("bg2.jpg"))
-	fontl = tkFont.Font(family='Algerian', size=32)
+	fontl = tkFont.Font(family='Roboto', size=35)
 	label1=Label(enc,image=img)
 	label1.pack()
 
